@@ -4,9 +4,9 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 
-import KeenUI from 'keen-ui';
-import 'keen-ui/dist/keen-ui.css';
-Vue.use(KeenUI);
+import KeenUI from 'keen-ui'
+import 'keen-ui/dist/keen-ui.css'
+Vue.use(KeenUI)
 
 Vue.config.productionTip = false
 
