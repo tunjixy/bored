@@ -60,7 +60,7 @@ export default {
     getActivity () {
       this.loading = true
       const proxyUrl = 'https://cors-anywhere.herokuapp.com/'
-      axios.get(proxyUrl + `http://www.boredapi.com/api/activity?type=${this.activity.toLowerCase()}`)
+      axios.get(proxyUrl + `https://www.boredapi.com/api/activity?type=${this.activity.toLowerCase()}`)
         .then(res => {
           this.loading = false
           this.activities = res.data
